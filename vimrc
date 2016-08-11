@@ -1,3 +1,5 @@
+set nocompatible
+
 set number
 syntax off
 set guioptions=
@@ -13,17 +15,19 @@ set showmatch
 
 nnoremap <F5> :!make<cr>
 
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+
 autocmd FileType c,cpp set tabstop=2
 autocmd FileType c,cpp set softtabstop=2
 autocmd FileType c,cpp set shiftwidth=2
 
-autocmd FileType java,py set tabstop=4
-autocmd FileType java,py set softtabstop=4
-autocmd FileType java,py set shiftwidth=4
-
 set autoindent
-set cindent
-set expandtab
+
+autocmd FileType c,cpp,java set cindent
+
+autocmd FileType c,cpp,java,markdown set expandtab
 
 set history=512
 
