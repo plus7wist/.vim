@@ -1,7 +1,7 @@
 set nocompatible
 
 set number
-syntax off
+" syntax off
 set guioptions=
 
 set encoding=utf-8
