@@ -9,6 +9,7 @@ set fileencodings=utf-8,ucs-bom,chinese
 set fileencoding=utf-8
 
 " colorscheme torte
+" colorscheme slate
 
 set mouse=a
 set showmatch
